@@ -1,4 +1,8 @@
-# SFND 2D Feature Tracking
+# Sensor Fusion Engineer Project 2 - 2D Feature Tracking
+
+## Benjamin Söllner
+
+This project is forked from the [Udacity Sensor Fusion Nanodegree](https://www.udacity.com/course/sensor-fusion-engineer-nanodegree--nd313) online class content and subsequently completed to meet the courses project submission standards. The remaining section of this `README` talks about the general course content and how to build this project. Go to [udacity/SFND_2D_Feature_Tracking](https://github.com/udacity/SFND_2D_Feature_Tracking) if you want to retrieve the original (unfinished) repo. Don't you cheat by copying my repo in order to use it as your Nanodegree submission! :-o
 
 <img src="images/keypoints.png" width="820" height="248" />
 
