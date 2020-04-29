@@ -26,6 +26,14 @@ void createMatrix1()
 
     // STUDENT TASK :
     // Display the results from the STUDENT TASK above
+    cv::Mat m3_8u;
+    m3_8u.create(nrows, ncols, CV_8UC3); // two-channel matrix with 8bit unsigned elements
+    m3_8u.setTo(cv::Scalar(255, 0, 0));  // white
+    windowName = "Second steps in OpenCV (m1_8u)";
+    cv::namedWindow(windowName, 1); // create window
+    cv::imshow(windowName, m3_8u);
+    cv::waitKey(0); // wait for keyboard input before continuing
+
 
 }
 
