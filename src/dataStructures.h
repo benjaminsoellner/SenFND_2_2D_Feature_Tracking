@@ -15,4 +15,8 @@ struct DataFrame { // represents the available sensor information at the same ti
 };
 
 
+struct LidarPoint { // single lidar point in space
+    double x,y,z,r; // x,y,z in [m], r is point reflectivity
+};
+
 #endif /* dataStructures_h */

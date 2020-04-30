@@ -32,6 +32,14 @@ target_link_libraries(load_image_2 ${OpenCV_LIBRARIES})
 add_executable (load_image_3 src/load_image_3.cpp)
 target_link_libraries(load_image_3 ${OpenCV_LIBRARIES})
 
+# Executables for TTC with lidar exercise
+add_executable (compute_ttc_lidar src/compute_ttc_lidar.cpp src/structIO.cpp)
+target_link_libraries(compute_ttc_lidar ${OpenCV_LIBRARIES})
+
+# Executables for TTC with camera exercise
+add_executable (compute_ttc_camera src/compute_ttc_camera.cpp src/structIO.cpp)
+target_link_libraries(compute_ttc_camera ${OpenCV_LIBRARIES})
+
 # Executable for project
 add_executable (2D_feature_tracking src/matching2D_Student.cpp src/MidTermProject_Camera_Student.cpp)
 target_link_libraries (2D_feature_tracking ${OpenCV_LIBRARIES})
