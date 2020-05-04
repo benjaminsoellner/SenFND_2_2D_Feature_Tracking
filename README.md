@@ -2,11 +2,11 @@
 
 ## Benjamin Söllner
 
-This project is forked from the [Udacity Sensor Fusion Nanodegree](https://www.udacity.com/course/sensor-fusion-engineer-nanodegree--nd313) online class content and subsequently completed to meet the courses project submission standards. The remaining section of this `README` talks about the general course content and how to build this project. Go to [udacity/SFND_2D_Feature_Tracking](https://github.com/udacity/SFND_2D_Feature_Tracking) if you want to retrieve the original (unfinished) repo. Don't you cheat by copying my repo in order to use it as your Nanodegree submission! :-o
+This project is forked from the [Udacity Sensor Fusion Nanodegree](https://www.udacity.com/course/sensor-fusion-engineer-nanodegree--nd313) online class content and subsequently completed to meet the courses project submission standards. The remaining section of this `README` includes the Reflection which has to be completed as part of this project and details about the general course content and how to build this project. The source code in this repo also contains the lesson quizzes in the separate ``src/quizzes`` folder. Go to [udacity/SFND_2D_Feature_Tracking](https://github.com/udacity/SFND_2D_Feature_Tracking) if you want to retrieve the original (unfinished) repo. Don't you cheat by copying my repo in order to use it as your Nanodegree submission! :-o
 
 ## Reflection
 
-This section answers how this Udacity project submission fulfils the project [rubric](https://review.udacity.com/#!/rubrics/2549/view)
+This section answers how this Udacity project submission fulfils the project [rubric](https://review.udacity.com/#!/rubrics/2549/view).
 
 ### MP.1 Data Buffer Optimization
 
@@ -175,7 +175,11 @@ average run time per image pair for each algorithm, in ascending order by averag
 [MP.8/.9] (BRISK, BRISK) with total 1570 matches in average 519.785 ms
 ```
 
-The following (Detector, Descriptor) implementations are most efficient w.r.t. runtime (in descending order): (FAST, BRIEF), (FAST, ORB) and (ORB, BRIEF).
+The following (Detector, Descriptor) implementations are most efficient w.r.t. runtime (in descending order):
+
+* (FAST, BRIEF)
+* (FAST, ORB)
+* (ORB, BRIEF)
 
 ## Cource Content
 
