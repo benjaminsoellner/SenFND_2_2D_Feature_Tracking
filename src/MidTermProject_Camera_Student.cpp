@@ -26,8 +26,8 @@ int main(int argc, const char *argv[])
     /* INIT VARIABLES AND DATA STRUCTURES */
 
     // data location
-    string dataPath = "./"; // TODO: only done for debugging
-    //string dataPath = "../";
+    //string dataPath = "./"; // Use this for debugging in VSCode because somehow the working dir cannot be set there
+    string dataPath = "../";
 
     // camera
     string imgBasePath = dataPath + "images/";
