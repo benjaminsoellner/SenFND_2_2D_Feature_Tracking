@@ -1,11 +1,13 @@
 cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 
-add_definitions(-std=c++11)
+project(camera_fusion)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(CXX_FLAGS "-Wall")
 set(CMAKE_CXX_FLAGS, "${CXX_FLAGS}")
 
-project(camera_fusion)
 
 find_package(OpenCV 4.1 REQUIRED)
 
@@ -65,6 +67,10 @@ target_link_libraries(q44_detect_keypoints ${OpenCV_LIBRARIES})
 # Executables for SIFT & BRISK Detector
 add_executable (q45_describe_keypoints src/quizzes/q45_describe_keypoints.cpp)
 target_link_libraries(q45_describe_keypoints ${OpenCV_LIBRARIES})
+
+# Executables for Descriptor Matching
+add_executable (q46_descriptor_matching src/quizzes/q46_descriptor_matching.cpp src/quizzes/structIO.cpp)
+target_link_libraries(q46_descriptor_matching ${OpenCV_LIBRARIES})
 
 # Mid-Term Project
 
